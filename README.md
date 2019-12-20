@@ -54,12 +54,12 @@ version: '3'
 services:
   webserver:
     image: periscuelo/nginx-ssl
-      ports:
-        - 80:80
-        - 443:443
-      volumes:
-        - ./htdocs:/var/www
-        - ./default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./htdocs:/var/www
+      - ./default.conf:/etc/nginx/conf.d/default.conf
 ```
 `$ docker-compose up -d`
 
