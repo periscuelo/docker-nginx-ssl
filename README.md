@@ -63,8 +63,8 @@ services:
 ```
 `$ docker-compose up -d`
 
-### PHP Composer
-You can use the `composer` too. For this, use the following command:
+### Terminal Access
+You can access `nginx` too. For this, use the following command:
 
 `$ docker exec -it ID_OR_NAME_OF_YOUR_CONTAINER bash`
 
